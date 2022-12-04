@@ -679,6 +679,7 @@ img {
 }
 .form-label {
   display: flex;
+  flex-direction: column;
   font-size: 12px;
   line-height: 1.71;
   letter-spacing: 0.01em;
@@ -782,7 +783,6 @@ img {
   margin-left: 7px;
 }
 .modal-submit {
-  /* position: absolute; */
   display: block;
   margin: 0 auto;
   min-width: 200px;
