@@ -761,7 +761,20 @@ img {
 .checkbox-icon:active {
   background-color: var(--accent-color);
   fill: var(--text-on-dark-color);
-  border: none;
+  border-color: var(--accent-color);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-origin: border-box;
+}
+.checkbox:checked + .checkbox-icon {
+  background-color: var(--accent-color);
+  fill: var(--text-on-dark-color);
+  border-color: var(--accent-color);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-origin: border-box;
 }
 .contract {
   text-decoration-line: underline;
