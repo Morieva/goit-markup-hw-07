@@ -3,7 +3,6 @@
     color: var(--text-on-dark-color);
     padding: 60px 0px;
 }
-
 .footer__container {
     display: flex;
 
@@ -116,14 +115,13 @@
     justify-content: center;
     align-items: center;
     border: none;
-}
 
-.footer__subscription--button:active,
-.footer__subscription--button:hover,
-.footer__subscription--button:focus {
-    background-color: var(--background-active-button);
+    &:active,
+    &:hover,
+    &:focus {
+        background-color: var(--background-active-button);
+    }
 }
-
 .footer__subscription--icon {
     fill: var(--text-on-dark-color);
     margin-left: 10px;

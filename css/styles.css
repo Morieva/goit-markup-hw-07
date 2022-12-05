@@ -620,7 +620,9 @@ img {
 }
 
 /*=========Модалка========*/
-.backdrop {
+/*
+/.backdr
+{
   background-color: rgba(0, 0, 0, 0.25);
   position: fixed;
   top: 0;
@@ -660,7 +662,9 @@ img {
   fill: var(--accent-color);
 }
 */
-.backdrop.backdrop__is-hidden {
+/*
+/.backdrop.backdrop__is-hidd
+{
   pointer-events: none;
   opacity: 0;
   visibility: hidden;
