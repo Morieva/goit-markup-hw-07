@@ -311,6 +311,16 @@ ul {
   position: relative;
   transition: color 250ms var(--timing-function);
 }
+.nav:hover, .nav:focus {
+  color: var(--accent-color);
+}
+.nav__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.nav__link.link__current {
+  color: var(--accent-color);
+}
 .nav__link.link__current::after {
   content: "";
   position: absolute;
@@ -320,12 +330,6 @@ ul {
   bottom: -1px;
   border-radius: 2px;
   background-color: var(--accent-color);
-}
-.nav__link:hover, .nav__link:focus {
-  color: var(--accent-color);
-}
-.nav__item:not(:last-child) {
-  margin-right: 50px;
 }
 
 .contacts {
@@ -347,15 +351,12 @@ ul {
 .contacts__link:hover, .contacts__link:focus {
   color: var(--accent-color);
 }
-.contacts__link__icon {
+.contacts__icon {
   fill: currentColor;
   margin-right: 10px;
 }
-.contacts__link__item:not(:last-child) {
+.contacts__item:not(:last-child) {
   margin-right: 30px;
-}
-.contacts .link.link__current {
-  color: var(--accent-color);
 }
 
 .section__footer {
