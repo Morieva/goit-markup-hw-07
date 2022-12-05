@@ -18,6 +18,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -31,7 +32,9 @@
             >
             <ul class="list nav__list">
               <li class="nav__item">
-                <a href="./index.html" class="link nav__link link__current" title="Студія">Студія</a>
+                <a href="./index.html" class="link nav__link link__current" title="Студія"
+                  >Студія</a
+                >
               </li>
               <li class="nav__item">
                 <a href="./portfolio.html" class="link nav__link" title="Портфоліо">Портфоліо</a>
@@ -76,7 +79,7 @@
       <!-- Особливості -->
       <section class="section feature">
         <div class="container feature__container">
-          <h2 class="hidden">Особливості</h2>
+          <h2 class="visually-hidden">Особливості</h2>
           <ul class="list feature__list">
             <li class="feature__item">
               <div class="feature__box">
@@ -417,12 +420,18 @@
                 >
               </li>
               <li class="footer__address--item">
-                <a class="link footer__address--link footer__address--opacity" href="mailto:info@devstudio.com"
+                <a
+                  class="link footer__address--link footer__address--opacity"
+                  href="mailto:info@devstudio.com"
                   >info@devstudio.com</a
                 >
               </li>
               <li class="footer__address--item">
-                <a class="link footer__address--link footer__address--opacity" href="tel:+380961111111">+38 096 111 11 11</a>
+                <a
+                  class="link footer__address--link footer__address--opacity"
+                  href="tel:+380961111111"
+                  >+38 096 111 11 11</a
+                >
               </li>
             </ul>
           </address>
@@ -486,7 +495,7 @@
           </svg>
         </button>
 
-        <div class="modal__box">          
+        <div class="modal__box">
           <form class="form" name="modal_form" autocomplete="on" novalidate>
             <h2 class="form__headline">Залиште свої дані, ми вам передзвонимо</h2>
             <div class="form__group" role="group">
@@ -542,21 +551,13 @@
               ></textarea>
             </div>
             <label class="form__label label--check">
-              <div class="form__box">
-              <input
-                type="checkbox"
-                class="form__checkbox"
-                name="agreement"
-                id="agreement"
-                placeholder=""
-              />
+              <input type="checkbox" class="form__checkbox" name="agreement" id="agreement" />
               <svg class="form__checkbox--icon">
                 <use href="./images/icons.svg#icon-checkbox"></use>
               </svg>
               Погоджуюся з розсилкою та приймаю
               <a href="#" class="link form__link--contract">Умови договору</a>
             </label>
-            </div>
             <button type="submit" class="modal__submit--button button">Відправити</button>
           </form>
         </div>
